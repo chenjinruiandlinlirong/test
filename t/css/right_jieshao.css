@@ -1,0 +1,44 @@
+	.right_jieshao
+		{
+			//width:1130px;
+			//height:100%;
+			background: #F0F1F1;
+			position: relative;
+			left:235px;
+			display: none;
+		}
+	
+	.right_jieshao .hiddened
+	{
+		opacity: 0;
+	}
+	
+		#sanjiao
+		{
+			width:100px;
+			height:80px;
+			border: 1px solid red;
+			position: absolute;
+			left:-120px;
+			top:150px;
+			color:white;
+			background: blue;
+			line-height: 80px;;
+			font-weight: bold;
+			text-align: center;
+			
+		}
+		#sanjiao:after{
+			content: "22";
+			width:0px;
+			height:0px;
+			position:absolute;
+			border: 10px transparent solid;
+			border-left-color:  blue;
+			/*right: 0;*/
+			overflow: hidden;
+			margin-right: -20px;
+			right:0;
+			top:30px;
+			//margin-bottom: 40px;
+		}

@@ -1,0 +1,217 @@
+/*顶部导航*/
+.nav-top{
+	height: 60px;
+	background: #FFF;
+}
+/*顶部logo*/
+.nav-top-logo{
+	padding:0;
+}
+/*导航列表*/
+.navbar-list li a{
+	height: 60px;
+	line-height: 30px;
+}
+/*联系*/
+.phone{
+	position: absolute;
+	left: 40%;
+	top: 35%;
+}
+.phone span{
+	color: red;
+	font-size: 18px;
+}
+.phone i{
+	font-size: 20px;
+}
+/*页面1*/
+.bg1{
+	position: relative;
+	background: #FFF;
+}
+/*顶部标语*/
+.top_idea{
+	position: absolute;
+	left: 41%;
+	top: 12%;
+	color: #101010;
+	font-family: "微软雅黑";
+}
+/*产品特点*/
+.pro_intro h2{
+	color: black;
+	position: absolute;
+	left: -100px;
+	top: -180px;
+}
+.pro_intro h3{
+	color: black;
+	position: absolute;
+	left: -50px;
+	top: -120px;
+}
+/*公司*/
+.comp{
+	position: absolute;
+	left: 45%;
+	top: 75%;
+	color: blue;
+	font-family: "微软雅黑";
+	text-shadow: 2px 2px 3px #0C6CAE;
+	cursor: pointer;
+}
+/*页面2*/
+.bg2{
+	background: #eee;
+}
+/*页面2容器*/
+.cont_second{
+	padding-top: 50px;
+}
+/*页面2标题**/
+.cont_desc{
+	text-align: center;
+	font-family: "微软雅黑";
+}
+/*产品展示*/
+.pro_show{
+	background: rgba(102,102,102,0.1);
+}
+.pro_show img{
+	opacity: 0.8;
+}
+.pro_show img:hover{
+	opacity: 1;
+	transition: all 0.5s;
+	transform: scale(1.2);
+}
+.star:hover span{
+	color:yellow;
+}
+/*更多产品*/
+.pro_more{
+	float: right;
+	margin-right: 50px;
+	margin-top: -20px;
+}
+/*页面3*/
+.bg3{
+	background: #eee;
+	-webkit-perspective: 800;
+	-webkit-perspective-origin: 50% 50%;	
+}
+/*3d翻页*/
+.pageGroup{
+		width: 362px;
+		height: 400px;
+		-webkit-transform-style: preserve-3d;
+		position: absolute;
+		right: 200px;
+		top: 50px;
+}
+.page{
+	width: 362px;
+	height: 360px;
+	position: absolute;
+}
+.page img{
+	width: 100%;
+	height: 100%;
+}
+.op{
+	position: absolute;
+	right: 25%;
+	bottom: 2%;
+}
+#p1{
+	-webkit-transform-origin:0 center 0; 
+	-webkit-transition: -webkit-transform 1s linear;
+}
+#p2,#p3,#p4,#p5,#p6{
+	-webkit-transform-origin:0 center 0 ;
+	-webkit-transition: -webkit-transform 1s linear;
+	-webkit-transform: rotateY(180deg);
+	opacity: 0;
+}
+/*案例红心*/
+.hot span{
+	color: #EE1E02;
+}
+/*页面4*/
+.bg4{
+	background: #EEE;
+}
+/*荣誉资料*/
+.honor_show{
+	text-align: center;
+	font-size: 25px;
+	font-family: "微软雅黑";
+}
+.honor{
+	height: 500px;
+	overflow: hidden;
+	padding: 0;
+}
+.honor img{
+	width: 975px;
+	height: 100%;
+	float: left;
+}
+.honor-count{
+	width: 2925px;
+	height: 502px;
+}
+.honor_list li a:hover{
+	background: #106DAF;
+	color: wheat;
+}
+/*页面5*/
+.bg5{
+	/*background: yellow;*/
+}
+/*页面6*/
+.bg6
+{
+	background: #FFF;
+}
+.tittle6{
+	text-align: center;
+	font-family: "微软雅黑";
+}
+/*公司描述*/
+.info-content{
+	padding: 20px;
+}
+.info-content p{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 20px;
+	font-weight: bold;
+}
+.info-content p span{
+	color: #0000FF;
+}
+.connect p{
+	font-size: 12px;
+	line-height: 12px;
+	color: #666;
+}
+footer {
+	background-color: #666;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	padding: 30px;
+	text-align: center;
+	color: #eee;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) { ... }
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) { ... }
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) { ... }

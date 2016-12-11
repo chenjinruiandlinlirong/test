@@ -1,0 +1,156 @@
+		.right_jieshao .out
+			{
+			width:1100px;
+			height:130px;
+			border:1px solid #E1E1E1;
+			margin: 10px;
+			overflow: hidden;
+		}
+		
+		.right_jieshao .out ul
+		{
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+		.right_jieshao .out ul li
+		{
+			overflow: hidden;
+			float:left;
+			width:157px;
+			height:130px;
+			//border: 2px solid yellow;
+			position:relative;
+		}
+		
+		.right_jieshao .out ul li a 
+		{
+			
+			position:absolute;
+			width:157px;
+			height:130px;
+		}
+		.right_jieshao .out ul li a .p1
+		{
+			color:#F62368;
+			font-weight: bold;
+			font-size:14px;
+			margin:21px 0px;
+			//border: 2px solid yellow;
+			
+		
+		}
+		.right_jieshao .out ul li a .p2
+		{
+			color:#868686;
+			font-size:12px;
+			margin-bottom:0px;
+			//border: 2px solid yellow;
+		}
+		.right_jieshao .out ul li a .p3
+		{
+			//font-style:  italic;
+			color:#F62368;
+			font-size:16px;
+			margin-top:0px;
+			//border: 2px solid yellow;
+			
+		}
+		.right_jieshao .out ul li a img
+		{
+			width:100px;
+			height: 100px;
+			position: absolute;
+			right:-15px;
+			bottom:0;
+			z-index: 1;
+		}
+		.right_jieshao .info
+		{
+			margin-left:12px;
+			width:90px;
+			height: 100px;
+		//	border: 2px solid yellow;
+			position: absolute;
+			left:0px;
+			top:0px;
+			z-index: 2;
+		}
+		.right_jieshao .xuxian
+		{
+			border: 1px dashed #CACACA;
+			height:128px;
+			position: absolute;
+			right: 0;
+			z-index: 2;
+		}
+		.right_jieshao .mask
+		{
+			width:157px;
+			height:130px;
+			position: absolute;
+			top:0;
+			left:0;
+			opacity: 0.2;
+			background: #23527C;
+		}				
+		.right_jieshao .out .big
+		{
+			width:312px;
+			//border: 2px solid yellow;
+		}
+		.right_jieshao .out .big a
+		{
+			width:312px;
+			position:absolute;
+			
+		}
+		.right_jieshao .out .big .info
+		{
+			width:290px;
+		}
+		.right_jieshao .out .big img
+		{
+			width:130px;
+			height:130px;
+			position: absolute;
+			right:0px;
+			bottom:0;
+			z-index: 1;
+		}
+		.right_jieshao .out .big .p1
+		{
+			font-size:20px;
+		}
+		.right_jieshao .out .big .p2
+		{
+			font-size:20px;
+		}
+		.right_jieshao .out .big .p3 strong ,.out .big .p3  i
+		{		
+			//color:yellow;
+			font-size:30px;
+		}
+		.right_jieshao .out .big .mask
+		{
+			width:312px;
+			height:130px;
+			position: absolute;
+			top:0;
+			left:0;
+			opacity: 0;
+			background: #D9D9D9;
+		}
+		.right_jieshao  *
+		{
+			transition:all 0.35s linear;
+		}
+		
+	.right_jieshao .display_1{
+		position: absolute;
+		left:200px;
+		width:274px;
+		height:182px;
+	}
+	
+	

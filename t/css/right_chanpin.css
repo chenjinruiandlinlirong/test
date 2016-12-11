@@ -1,0 +1,303 @@
+.rightdiv_chanpin .jianjie
+	{
+		width:200px;
+		/*height:300px;*/
+		/*background: red;*/
+		position: absolute;
+		left:850px;
+		top:100px;
+		border: 1px dotted #2ED0B4;
+		z-index: 10;
+		text-indent: 20px;
+		line-height: 30px;
+	}
+	
+
+		.rightdiv_chanpin
+		{
+			//width:1130px;
+			//height:662px;
+			background: #F0F1F1;
+			position: relative;
+			/*border:2px solid black ;*/
+			float:left;
+			left:235px;
+			display: none;
+		}
+		.rightdiv_chanpin img
+		{
+			position: absolute;
+			top:0;
+			left:0;
+		}
+		
+		/* 产品 */
+	.div3
+	{
+		position: absolute;
+		height:40px;
+		width: 400px;		
+		top:40px;
+		left:60px;
+		/*padding-top: 40px;
+		/border: 1px solid green;	
+		//margin: 0;*/
+	}
+	.div2
+	{
+		position: absolute;
+		top:100px;
+		left:40px;
+		height:420px;
+		width: 800px;
+		/*border: 1px solid green;*/
+		
+	}
+	.div1 h6
+	{
+		border-radius: 70%;
+		background: #2Fd0b5;
+		line-height: 28px;
+		/*padding-left: 30px;
+		//padding-left: 50px;*/
+		width: 100px;
+		text-align: center;	
+	}
+	.div1
+	{
+		width:1130px;
+		height:662px;
+	/*	border: 1px solid green;*/
+		position: relative;
+	}
+	.div1 ul
+	{
+		list-style-type:none;
+		margin:0;
+		padding: 0;
+	}
+	.div2 ul li
+	{
+		opacity: 0.5;
+		float:left;
+		display: none;
+		/*border: 1px solid green;*/
+		position:absolute;
+		left: 0;	
+		/*width:900px;*/
+		
+	/*	height:662px;	*/
+	}
+	.div2 ul li a 
+	{
+		text-decoration: none;
+	}
+	.div2 *
+	{
+		transition: all 0.005s linear; 
+	}
+	.div2 .da
+	{
+		opacity: 1;
+		display: block;
+		/*background: white;
+		//border: 10px solid green;*/
+	}
+	.div3 ul li
+	{
+		float:left;
+	}
+	.figure_foot
+	{
+		width:367px;
+		height:80px;
+		/*border: 1px solid black;*/
+		position: absolute;
+		overflow: hidden;
+		bottom: 381px;
+		background: white;
+		left:10px;
+		
+	}
+
+	.figure_foot p,.figure_foot1 p,.figure_foot2 p,.figure_foot3 p,.figure_foot4 p{
+		color:  black;
+		font-size: 14px;
+		padding: 20px 0 0 15px;
+		position: absolute;
+		z-index: 4;
+	}
+	.figure_foot div,.figure_foot1 div,.figure_foot2 div,.figure_foot3 div,.figure_foot4 div{
+		width:367px;
+		height:80px;
+		transform: translate(0px,100px);
+		position: absolute;
+		
+		z-index: 1;
+	}
+	
+	.figure_foot1
+	{
+		width:367px;
+		height:80px;
+		/*border: 1px solid black;*/
+		position: absolute;
+		overflow: hidden;
+		bottom: 381px;
+		left:397px;
+		background: white;
+	}
+	
+	.figure_foot2
+	{
+		width:367px;
+		height:80px;
+		/*border: 1px solid black;*/
+		position: absolute;
+		/*overflow: hidden;*/
+		bottom: 20px;
+		left:10px;
+		background: white;
+	}
+	
+	.figure_foot3
+	{
+		width:367px;
+		height:80px;
+		/*border: 1px solid black;*/
+		position: absolute;
+		/*overflow: hidden;*/
+		bottom: 20px;
+		left:397px;
+		background: white;
+	}
+
+	.figure_foot4
+	{
+		width:367px;
+		height:80px;
+		/*border: 1px solid black;*/
+		position: absolute;
+		/*overflow: hidden;*/
+		bottom: 20px;
+		left:10px;
+		background: white;
+	}
+		/*****************************  旋转动画             	*****************/
+	.test2
+	{
+		background: #E56876;
+		width:367px;
+		height:251px;
+		/*border: 1px solid red;*/
+		overflow: hidden;
+		position: relative;
+		float: left;
+		margin: 10px;
+		margin-bottom: 100px;
+		
+	}
+	.test2 figcaption
+	{
+		width:100%;
+		height:100%;
+		/*border: 3px solid red;*/
+		position: absolute;
+		top:0;
+		left:0;
+		color:white;
+		font-family: "微软雅黑";
+	
+	}
+	.test2 figcaption h2
+	{
+		margin-top: 10%;
+		margin-left: 15%;
+		font-family: "宋体";
+	}
+	.test2 figcaption p
+	{
+		margin-left: 15%;
+		width:350px;
+		height:60px;
+		transform: translate(0px,100px);
+		opacity: 0;
+		
+		line-height: 20px;
+		
+	
+		
+	}
+	.test2 figcaption .xuan
+	{
+		border: 2px solid white;
+		width:80%;
+		height:80%;
+		position: absolute;
+		top:10%;
+		left:10%;
+		transform: translate(0px,-300px) rotate(0deg);
+		
+	}
+	.div2 a:hover .test2 figcaption .xuan
+	{
+		transform: translate(0px,0px) rotate(1080deg);	
+	}
+	.div2 a:hover  .test2 img
+	{
+		opacity: 0.5;
+		
+		transform: scale(1.2,1.2);
+	}
+	.div2 a:hover .test2 figcaption p
+	{
+		transform: translate(0px,0px);
+		opacity: 1;
+	}
+	.div2 a:nth-child(1):hover .figure_foot div,.div2 a:hover .figure_foot4 div
+	{
+		
+		background:#2ED0B4 ;
+		transform: translate(0px,0px);
+		
+	}
+	.div2 a:hover .figure_foot p,.div2 a:hover .figure_foot4 p
+	{
+		color:white;
+	}
+	.div2 a:nth-child(2):hover .figure_foot1 div
+	{
+		background:#A9A9A9 ;
+		transform: translate(0px,0px);
+	}
+	.div2 a:nth-child(2):hover .figure_foot1 p
+	{
+		color:white;
+	}
+	
+	.div2 a:nth-child(3):hover .figure_foot2 div
+	{
+		background:#196AAD ;
+		transform: translate(0px,0px);
+	}
+	.div2 a:nth-child(3):hover .figure_foot2 p
+	{
+		color:white;
+	}
+	.div2 a:nth-child(4):hover .figure_foot3 div
+	{
+		background:#F66229 ;
+		transform: translate(0px,0px);
+	}
+	.div2 a:nth-child(4):hover .figure_foot3 p
+	{
+		color:white;
+	}
+	
+	.div2 *
+	{
+		transition: all 0.3s ;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+	}
+	
